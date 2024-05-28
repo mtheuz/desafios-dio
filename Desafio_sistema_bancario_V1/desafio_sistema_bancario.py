@@ -1,5 +1,3 @@
-import os
-
 user_balance = 0
 DAILY_AMOUNT_LIMIT = 500
 daily_withdraw_limit = 3
@@ -30,6 +28,8 @@ def cash_deposit(cash_for_deposit, user_balance):
 
 def bank_statement(statement):
     print(f"\n{statement}")
+
+
 
 while operation_account != 3:
     operation_account = input(
